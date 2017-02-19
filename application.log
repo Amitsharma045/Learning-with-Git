@@ -1,0 +1,104 @@
+2017-02-19 18:35:04.339  INFO 5744 --- [main] com.springbootstarter.CourseApiApp       : Starting CourseApiApp on Atul-PC with PID 5744 (C:\Users\Atul\git\Learning-with-Git\target\classes started by Atul in C:\Users\Atul\git\Learning-with-Git)
+2017-02-19 18:35:04.352  INFO 5744 --- [main] com.springbootstarter.CourseApiApp       : No active profile set, falling back to default profiles: default
+2017-02-19 18:35:04.576  INFO 5744 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1b7a4e0: startup date [Sun Feb 19 18:35:04 IST 2017]; root of context hierarchy
+2017-02-19 18:35:09.284  INFO 5744 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$3f868069] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-02-19 18:35:11.345  INFO 5744 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2017-02-19 18:35:11.386  INFO 5744 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2017-02-19 18:35:11.390  INFO 5744 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.6
+2017-02-19 18:35:11.740  INFO 5744 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2017-02-19 18:35:12.244  INFO 5744 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2017-02-19 18:35:12.254  INFO 5744 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-02-19 18:35:12.256  INFO 5744 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-02-19 18:35:12.256  INFO 5744 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-02-19 18:35:12.257  INFO 5744 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2017-02-19 18:35:15.435  INFO 5744 --- [main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-02-19 18:35:15.497  INFO 5744 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-02-19 18:35:15.798  INFO 5744 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.0.11.Final}
+2017-02-19 18:35:15.802  INFO 5744 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2017-02-19 18:35:15.807  INFO 5744 --- [main] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2017-02-19 18:35:15.969  INFO 5744 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-02-19 18:35:16.448  INFO 5744 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.DerbyTenSevenDialect
+2017-02-19 18:35:18.970  INFO 5744 --- [main] org.hibernate.tool.hbm2ddl.SchemaExport  : HHH000227: Running hbm2ddl schema export
+2017-02-19 18:35:18.981 ERROR 5744 --- [main] org.hibernate.tool.hbm2ddl.SchemaExport  : HHH000389: Unsuccessful: drop table topic
+2017-02-19 18:35:18.982 ERROR 5744 --- [main] org.hibernate.tool.hbm2ddl.SchemaExport  : Schema 'SA' does not exist
+2017-02-19 18:35:19.103  WARN 5744 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 10000, SQLState: 01J01
+2017-02-19 18:35:19.104  WARN 5744 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : Database 'memory:testdb' not created, connection made to existing database instead.
+2017-02-19 18:35:19.105  INFO 5744 --- [main] org.hibernate.tool.hbm2ddl.SchemaExport  : HHH000230: Schema export complete
+2017-02-19 18:35:19.244  INFO 5744 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-02-19 18:35:22.225  INFO 5744 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2017-02-19 18:35:22.419  INFO 5744 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2017-02-19 18:35:22.431  INFO 5744 --- [main] com.springbootstarter.CourseApiApp       : Started CourseApiApp in 19.694 seconds (JVM running for 20.923)
+2017-02-19 18:35:43.769  INFO 5744 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-02-19 18:35:44.105  INFO 5744 --- [http-nio-8080-exec-1] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2017-02-19 18:40:25.940  INFO 5136 --- [main] com.springbootstarter.CourseApiApp       : Starting CourseApiApp on Atul-PC with PID 5136 (C:\Users\Atul\git\Learning-with-Git\target\classes started by Atul in C:\Users\Atul\git\Learning-with-Git)
+2017-02-19 18:40:25.950  INFO 5136 --- [main] com.springbootstarter.CourseApiApp       : No active profile set, falling back to default profiles: default
+2017-02-19 18:40:26.173  INFO 5136 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1b7a4e0: startup date [Sun Feb 19 18:40:26 IST 2017]; root of context hierarchy
+2017-02-19 18:40:30.793  INFO 5136 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$3f868069] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-02-19 18:40:32.738  INFO 5136 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2017-02-19 18:40:32.774  INFO 5136 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2017-02-19 18:40:32.777  INFO 5136 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.6
+2017-02-19 18:40:33.128  INFO 5136 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2017-02-19 18:40:33.637  INFO 5136 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2017-02-19 18:40:33.648  INFO 5136 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-02-19 18:40:33.650  INFO 5136 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-02-19 18:40:33.650  INFO 5136 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-02-19 18:40:33.651  INFO 5136 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2017-02-19 18:40:36.541  INFO 5136 --- [main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-02-19 18:40:36.604  INFO 5136 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-02-19 18:40:36.910  INFO 5136 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.0.11.Final}
+2017-02-19 18:40:36.914  INFO 5136 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2017-02-19 18:40:36.919  INFO 5136 --- [main] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2017-02-19 18:40:37.093  INFO 5136 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-02-19 18:40:37.528  INFO 5136 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.DerbyTenSevenDialect
+2017-02-19 18:40:40.014  INFO 5136 --- [main] org.hibernate.tool.hbm2ddl.SchemaExport  : HHH000227: Running hbm2ddl schema export
+2017-02-19 18:40:40.025 ERROR 5136 --- [main] org.hibernate.tool.hbm2ddl.SchemaExport  : HHH000389: Unsuccessful: drop table topic
+2017-02-19 18:40:40.026 ERROR 5136 --- [main] org.hibernate.tool.hbm2ddl.SchemaExport  : Schema 'SA' does not exist
+2017-02-19 18:40:40.145  WARN 5136 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 10000, SQLState: 01J01
+2017-02-19 18:40:40.146  WARN 5136 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : Database 'memory:testdb' not created, connection made to existing database instead.
+2017-02-19 18:40:40.147  INFO 5136 --- [main] org.hibernate.tool.hbm2ddl.SchemaExport  : HHH000230: Schema export complete
+2017-02-19 18:40:40.310  INFO 5136 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-02-19 18:40:43.712  INFO 5136 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2017-02-19 18:40:43.940  INFO 5136 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2017-02-19 18:40:43.953  INFO 5136 --- [main] com.springbootstarter.CourseApiApp       : Started CourseApiApp in 19.738 seconds (JVM running for 20.939)
+2017-02-19 18:41:08.643  INFO 5136 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-02-19 18:41:08.927  INFO 5136 --- [http-nio-8080-exec-1] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2017-02-19 18:41:09.399 ERROR 5136 --- [http-nio-8080-exec-1] c.s.service.TopicService                 : No record found!!
+2017-02-19 18:51:47.688  INFO 5768 --- [main] com.springbootstarter.CourseApiApp       : Starting CourseApiApp on Atul-PC with PID 5768 (C:\Users\Atul\git\Learning-with-Git\target\classes started by Atul in C:\Users\Atul\git\Learning-with-Git)
+2017-02-19 18:51:47.700  INFO 5768 --- [main] com.springbootstarter.CourseApiApp       : No active profile set, falling back to default profiles: default
+2017-02-19 18:51:47.917  INFO 5768 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1b7a4e0: startup date [Sun Feb 19 18:51:47 IST 2017]; root of context hierarchy
+2017-02-19 18:51:52.928  INFO 5768 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$3f868069] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-02-19 18:51:55.101  INFO 5768 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2017-02-19 18:51:55.136  INFO 5768 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2017-02-19 18:51:55.140  INFO 5768 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.6
+2017-02-19 18:51:55.481  INFO 5768 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2017-02-19 18:51:56.011  INFO 5768 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2017-02-19 18:51:56.027  INFO 5768 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-02-19 18:51:56.030  INFO 5768 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-02-19 18:51:56.031  INFO 5768 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-02-19 18:51:56.033  INFO 5768 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2017-02-19 18:51:58.982  INFO 5768 --- [main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-02-19 18:51:59.048  INFO 5768 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-02-19 18:51:59.343  INFO 5768 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.0.11.Final}
+2017-02-19 18:51:59.348  INFO 5768 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2017-02-19 18:51:59.357  INFO 5768 --- [main] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2017-02-19 18:51:59.562  INFO 5768 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-02-19 18:52:00.033  INFO 5768 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.DerbyTenSevenDialect
+2017-02-19 18:52:03.029  INFO 5768 --- [main] org.hibernate.tool.hbm2ddl.SchemaExport  : HHH000227: Running hbm2ddl schema export
+2017-02-19 18:52:03.066 ERROR 5768 --- [main] org.hibernate.tool.hbm2ddl.SchemaExport  : HHH000389: Unsuccessful: drop table topic
+2017-02-19 18:52:03.068 ERROR 5768 --- [main] org.hibernate.tool.hbm2ddl.SchemaExport  : Schema 'SA' does not exist
+2017-02-19 18:52:03.177  WARN 5768 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 10000, SQLState: 01J01
+2017-02-19 18:52:03.178  WARN 5768 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : Database 'memory:testdb' not created, connection made to existing database instead.
+2017-02-19 18:52:03.179  INFO 5768 --- [main] org.hibernate.tool.hbm2ddl.SchemaExport  : HHH000230: Schema export complete
+2017-02-19 18:52:03.311  INFO 5768 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-02-19 18:52:06.329  INFO 5768 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2017-02-19 18:52:06.514  INFO 5768 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2017-02-19 18:52:06.532  INFO 5768 --- [main] com.springbootstarter.CourseApiApp       : Started CourseApiApp in 20.586 seconds (JVM running for 21.898)
+2017-02-19 18:52:33.163  INFO 5768 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-02-19 18:52:33.483  INFO 5768 --- [http-nio-8080-exec-1] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2017-02-19 18:52:33.920 ERROR 5768 --- [http-nio-8080-exec-1] c.s.service.TopicService                 : No record found!!
