@@ -2,19 +2,21 @@ package com.springbootstarter;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;
+import javax.persistence.ManyToOne;
 
 @Entity
-public class Topic {
+public class Course {
 	@Id
 	private String id;
 	private String name;
 	private String desription;
-//	private Topic topic;
+	@ManyToOne
+	private Topic topic;
 	
 	public String getId() {
 		return id;
 	}
-	Topic(){
+	Course(){
 		
 	}
 	public void setId(String id) {
@@ -32,11 +34,18 @@ public class Topic {
 	public void setDesription(String desription) {
 		this.desription = desription;
 	}
-	public Topic(String id, String name, String desription) {
+	public Course(String id, String name, String desription, String topicId) {
 		super();
 		this.id = id;
 		this.name = name;
 		this.desription = desription;
+		this.topic=new Topic(topicId,"","");
+	}
+	public Topic getTopic() {
+		return topic;
+	}
+	public void setTopic(Topic topic) {
+		this.topic = topic;
 	}
 	
 	
